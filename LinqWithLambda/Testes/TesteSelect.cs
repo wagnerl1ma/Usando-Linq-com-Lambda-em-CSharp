@@ -12,8 +12,11 @@ namespace LinqWithLambda.Testes
         {
             var listaClientes = DataBase.DataBase.GetClientes();
 
+
             ///<summary>
-            ///Usando Select com Apenas o LINQ
+            ///Select com apenas Linq
+            ///</summary>
+            
             //select em Linq apenas no nome do cliente
             //var primeiraQueryClientes = from cliente in listaClientes select cliente.Nome;
 
@@ -24,21 +27,26 @@ namespace LinqWithLambda.Testes
             //{
             //    Console.WriteLine(item);
             //}
-            ///</summary> 
 
 
+
+            ///<summary>
+            ///Select com Linq e Lambda
+            ///</summary>
 
             //Select com Linq e Lambda, apenas o nome do cliente
             var segundaQueryClientes = listaClientes.Select(cliente => cliente.Nome);
 
             //Select com Linq e Lambda, Id e nome do cliente
-            var segundaQueryClientes2 = listaClientes.Select(cliente => new { cliente.Id, cliente.Nome});
+            var segundaQueryClientes2 = listaClientes.Select(cliente => new { cliente.Id, cliente.Nome });
 
 
             foreach (var item in segundaQueryClientes2)
             {
                 Console.WriteLine(item.Nome + " " + item.Id);
             }
+
+
         }
     }
 }
