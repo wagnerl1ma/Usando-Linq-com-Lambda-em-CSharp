@@ -12,16 +12,20 @@ namespace LinqWithLambda.Testes
         {
             var listaClientes = DataBase.DataBase.GetClientes();
 
-            ////select em Linq apenas no nome do cliente
+            ///<summary>
+            ///Usando Select com Apenas o LINQ
+            //select em Linq apenas no nome do cliente
             //var primeiraQueryClientes = from cliente in listaClientes select cliente.Nome;
 
-            ////select em Linq apenas no Id e Nome
+            //select em Linq apenas no Id e Nome
             //var primeiraQueryClientes2 = from cliente in listaClientes select new { cliente.Id, cliente.Nome };
 
             //foreach (var item in primeiraQueryClientes)
             //{
             //    Console.WriteLine(item);
             //}
+            ///</summary> 
+
 
 
             //Select com Linq e Lambda, apenas o nome do cliente
