@@ -11,5 +11,9 @@ namespace LinqWithLambda.Model
         public int Id { get; set; }
         public string Nome { get; set; }
         public int Idade { get; set; }
+
+        public int SegundaIdade { get { Console.WriteLine("Eu sou " + Nome);
+                return Idade;
+            } }
     }
 }
