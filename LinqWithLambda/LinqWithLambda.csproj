@@ -49,6 +49,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testes\ITeste.cs" />
+    <Compile Include="Testes\TesteFirst.cs" />
     <Compile Include="Testes\TesteSelect.cs" />
     <Compile Include="Testes\TesteTodosClientes.cs" />
   </ItemGroup>

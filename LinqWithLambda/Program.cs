@@ -12,7 +12,8 @@ namespace LinqWithLambda
         static void Main(string[] args)
         {
             //ITeste teste = new TesteTodosClientes();
-            ITeste teste = new TesteSelect();
+            //ITeste teste = new TesteSelect();
+            ITeste teste = new TesteFirst();
             teste.Teste();
 
 
