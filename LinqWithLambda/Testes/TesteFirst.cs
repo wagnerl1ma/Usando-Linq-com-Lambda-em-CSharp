@@ -12,7 +12,9 @@ namespace LinqWithLambda.Testes
         {
             var clientes = DataBase.DataBase.GetClientes();
 
-            //Usando o FirstOrDefault
+
+            #region Usando o método First
+
             var firstCliente = clientes.First();
 
             Console.WriteLine(firstCliente.Nome);
@@ -36,8 +38,11 @@ namespace LinqWithLambda.Testes
                 Console.WriteLine("Não foi encontrado nenhum cliente com essa condição! " + " Detalhes: " + ex.Message);
             }
 
+            #endregion
 
-            //Usando o FirstOrDefault
+
+            #region Usando o método FirstOrDefault
+
             // Usando o FirstOrDefault ele não estoura exceção, caso não encontrar vai retornar nulo ou vazio ou 0
             Console.WriteLine("-------------- Usando o FirstOrDefault --------------");
 
@@ -64,7 +69,8 @@ namespace LinqWithLambda.Testes
             var firtstIdade = idadesCliente.FirstOrDefault(idade => idade < 10);
 
             Console.WriteLine(firtstIdade);
-            
+            #endregion
+
         }
     }
 }

@@ -13,10 +13,8 @@ namespace LinqWithLambda.Testes
             var listaClientes = DataBase.DataBase.GetClientes();
 
 
-            ///<summary>
-            ///Select com apenas Linq
-            ///</summary>
-            
+            #region Select com apenas Linq
+
             //select em Linq apenas no nome do cliente
             //var primeiraQueryClientes = from cliente in listaClientes select cliente.Nome;
 
@@ -28,11 +26,10 @@ namespace LinqWithLambda.Testes
             //    Console.WriteLine(item);
             //}
 
+            #endregion
 
 
-            ///<summary>
-            ///Select com Linq e Lambda
-            ///</summary>
+            #region Select com Linq e Lambda
 
             //Select com Linq e Lambda, apenas o nome do cliente
             var segundaQueryClientes = listaClientes.Select(cliente => cliente.Nome);
@@ -46,7 +43,7 @@ namespace LinqWithLambda.Testes
                 Console.WriteLine(item.Nome + " " + item.Id);
             }
 
-
+            #endregion
         }
     }
 }

@@ -24,7 +24,7 @@ namespace LinqWithLambda.Testes
             //Console.WriteLine(clienteIdade.Idade);
 
 
-            //Teste com Single e First
+            #region Teste com Single e First
 
             //O Single percorre e lê a lista inteira até achar o resultado
             var clienteComSingle = clientes.Single(x => x.SegundaIdade == 19);
@@ -33,6 +33,8 @@ namespace LinqWithLambda.Testes
             //O First lê apenas o primeiro e já parar de percorrer a lista
             var clienteComFirst = clientes.First(x => x.SegundaIdade == 19);
             Console.WriteLine("Este é o cliente: " + clienteComFirst.Nome);
+
+            #endregion
         }
     }
 }
