@@ -17,7 +17,8 @@ namespace LinqWithLambda
             //ITeste teste = new TesteSingle();
             //ITeste teste = new TesteLast();
             //ITeste teste = new TesteTake();
-            ITeste teste = new TesteSkip();
+            //ITeste teste = new TesteSkip();
+            ITeste teste = new TesteJoin();
             teste.Teste();
 
 
