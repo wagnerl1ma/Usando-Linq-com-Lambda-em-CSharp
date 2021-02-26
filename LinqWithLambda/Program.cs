@@ -19,7 +19,8 @@ namespace LinqWithLambda
             //ITeste teste = new TesteTake();
             //ITeste teste = new TesteSkip();
             //ITeste teste = new TesteJoin();
-            ITeste teste = new TesteSelectMany();
+            //ITeste teste = new TesteSelectMany();
+            ITeste teste = new TesteOrderBy();
             teste.Teste();
 
 

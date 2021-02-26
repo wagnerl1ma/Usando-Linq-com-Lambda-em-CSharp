@@ -52,6 +52,7 @@
     <Compile Include="Testes\TesteFirst.cs" />
     <Compile Include="Testes\TesteJoin.cs" />
     <Compile Include="Testes\TesteLast.cs" />
+    <Compile Include="Testes\TesteOrderBy.cs" />
     <Compile Include="Testes\TesteSelect.cs" />
     <Compile Include="Testes\TesteSelectMany.cs" />
     <Compile Include="Testes\TesteSingle.cs" />
