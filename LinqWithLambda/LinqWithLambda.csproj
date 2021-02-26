@@ -53,6 +53,7 @@
     <Compile Include="Testes\TesteJoin.cs" />
     <Compile Include="Testes\TesteLast.cs" />
     <Compile Include="Testes\TesteSelect.cs" />
+    <Compile Include="Testes\TesteSelectMany.cs" />
     <Compile Include="Testes\TesteSingle.cs" />
     <Compile Include="Testes\TesteSkip.cs" />
     <Compile Include="Testes\TesteTake.cs" />
