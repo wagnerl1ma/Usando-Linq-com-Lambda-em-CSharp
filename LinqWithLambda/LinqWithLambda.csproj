@@ -59,6 +59,7 @@
     <Compile Include="Testes\TesteSkip.cs" />
     <Compile Include="Testes\TesteTake.cs" />
     <Compile Include="Testes\TesteTodosClientes.cs" />
+    <Compile Include="Testes\TesteWhere.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
