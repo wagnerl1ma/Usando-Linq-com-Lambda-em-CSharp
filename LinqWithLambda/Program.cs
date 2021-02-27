@@ -22,7 +22,8 @@ namespace LinqWithLambda
             //ITeste teste = new TesteSelectMany();
             //ITeste teste = new TesteOrderBy();
             //ITeste teste = new TesteWhere();
-            ITeste teste = new TesteAny();
+            //ITeste teste = new TesteAny();
+            ITeste teste = new TesteContains();
             teste.Teste();
 
 
