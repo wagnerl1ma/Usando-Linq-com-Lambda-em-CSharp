@@ -25,7 +25,8 @@ namespace LinqWithLambda
             //ITeste teste = new TesteAny();
             //ITeste teste = new TesteContains();
             //ITeste teste = new TesteAll();
-            ITeste teste = new TesteDistinct();
+            //ITeste teste = new TesteDistinct();
+            ITeste teste = new TesteDesafio1();
             teste.Teste();
 
 
