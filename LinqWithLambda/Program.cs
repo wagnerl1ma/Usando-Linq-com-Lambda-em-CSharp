@@ -27,7 +27,8 @@ namespace LinqWithLambda
             //ITeste teste = new TesteAll();
             //ITeste teste = new TesteDistinct();
             //ITeste teste = new TesteDesafio1();
-            ITeste teste = new TesteMaxCountMaxMin();
+            //ITeste teste = new TesteMaxCountMaxMin();
+            ITeste teste = new TesteSumAverage();
             teste.Teste();
 
 
