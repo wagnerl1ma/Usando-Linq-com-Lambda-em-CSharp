@@ -35,11 +35,13 @@ namespace LinqWithLambda.Testes
             List<string> fruits2 = new List<string> { "apple", "passionfruit", "banana", "mango", "orange", "blueberry", "grape", "strawberry" };
 
             foreach (var item in fruits2)
-
+            {
                 if (item.Length <= 5)
                 {
                     Console.WriteLine(item);
                 }
+            }
+
         }
 
     }
