@@ -55,6 +55,7 @@
     <Compile Include="Testes\TesteDesafio1.cs" />
     <Compile Include="Testes\TesteDistinct.cs" />
     <Compile Include="Testes\TesteFirst.cs" />
+    <Compile Include="Testes\TesteGroupBy.cs" />
     <Compile Include="Testes\TesteJoin.cs" />
     <Compile Include="Testes\TesteLast.cs" />
     <Compile Include="Testes\TesteMaxCountMaxMin.cs" />
