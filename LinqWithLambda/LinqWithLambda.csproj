@@ -67,6 +67,7 @@
     <Compile Include="Testes\TesteSumAverage.cs" />
     <Compile Include="Testes\TesteTake.cs" />
     <Compile Include="Testes\TesteTodosClientes.cs" />
+    <Compile Include="Testes\TesteUnion.cs" />
     <Compile Include="Testes\TesteWhere.cs" />
   </ItemGroup>
   <ItemGroup>
