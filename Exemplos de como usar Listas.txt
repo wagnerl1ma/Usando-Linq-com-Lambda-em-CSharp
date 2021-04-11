@@ -1,0 +1,67 @@
+            //Exemplos de como usar Listas
+			
+			//exemplo 0 lista genérica[] - Array
+            var listaClientes = new[]
+            {
+                new Cliente
+                {
+                    Nome = "Teste 1",
+                    CEP = "99999000",
+                    Cidade = "Itabaiana",
+                    Estado = "SE",
+                    Telefone = "99000001115",
+                },
+                new Cliente
+                {
+                    Nome = "Teste 2",
+                    CEP = "99999000",
+                    Cidade = "Itabaiana",
+                    Estado = "SE",
+                    Telefone = "99000001116",
+                },
+            };
+
+            //exemplo 1 - cadastrar mais de um cliente em uma unica LIST
+            //quando cadastrado dois clientes em uma só instancia, é necessário usar o Add para incluir no banco
+            var listaCliente1 = new List<Cliente>()
+            {
+               new Cliente
+               {
+                    Nome = "Wagner",
+                    CEP = "99999000",
+                    Cidade = "São Paulo",
+                    Estado = "SP",
+                    Telefone = "99000001115",
+               },
+
+               new Cliente
+               {
+                   Nome = "Juliana",
+                    CEP = "99999000",
+                    Cidade = "São Paulo",
+                    Estado = "SP",
+                    Telefone = "99000001115",
+               }
+            };
+
+
+            //exemplo 2 - cadastrar mais de uma cliente com LIST usando o Add       //Gosto de utilizar esse tipo
+            var listaCliente2 = new List<Cliente>();
+
+            listaCliente2.Add(new Cliente
+            {
+                Nome = "Wagner",
+                CEP = "99999000",
+                Cidade = "Itabaiana",
+                Estado = "SP",
+                Telefone = "99000001115"
+            });
+
+            listaCliente2.Add(new Cliente
+            {
+                Nome = "Juliana",
+                CEP = "99999000",
+                Cidade = "Itabaiana",
+                Estado = "SP",
+                Telefone = "99000001115",
+            });
